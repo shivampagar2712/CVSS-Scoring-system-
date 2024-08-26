@@ -1,0 +1,71 @@
+Metric,Abbreviation,Value,Description
+Attack Vector,AV,N,Network: The vulnerability is exploitable remotely over the network.
+,,A,Adjacent Network: The vulnerability is exploitable only within the same local network segment.
+,,L,"Local: The vulnerability is exploitable locally (e.g., physical or local access required)."
+,,P,Physical: Physical access to the device is required to exploit the vulnerability.
+Attack Complexity,AC,L,Low: The vulnerability can be exploited without special conditions or circumstances.
+,,H,High: The vulnerability requires special conditions or circumstances to be exploited.
+Privileges Required,PR,N,None: No privileges are required to exploit the vulnerability.
+,,L,Low: Low-level privileges are required to exploit the vulnerability.
+,,H,"High: High-level (e.g., administrative) privileges are required to exploit the vulnerability."
+User Interaction,UI,N,None: No user interaction is required to exploit the vulnerability.
+,,R,Required: User interaction is required to exploit the vulnerability.
+Scope,S,U,Unchanged: The exploitation of the vulnerability does not affect resources beyond the vulnerable component.
+,,C,Changed: The exploitation of the vulnerability can affect resources beyond the vulnerable component.
+Confidentiality Impact,C,H,High: The vulnerability has a significant impact on confidentiality.
+,,L,Low: The vulnerability has a limited impact on confidentiality.
+,,N,None: The vulnerability has no impact on confidentiality.
+Integrity Impact,I,H,High: The vulnerability has a significant impact on integrity.
+,,L,Low: The vulnerability has a limited impact on integrity.
+,,N,None: The vulnerability has no impact on integrity.
+Availability Impact,A,H,High: The vulnerability has a significant impact on availability.
+,,L,Low: The vulnerability has a limited impact on availability.
+,,N,None: The vulnerability has no impact on availability.
+Exploit Code Maturity,E,X,Not Defined: The maturity level is not defined.
+,,H,High: The exploit code is widely available and reliable.
+,,F,Functional: The exploit code is functional but not necessarily reliable.
+,,P,Proof-of-Concept: The exploit code is theoretical and may not be practical.
+,,U,Unproven: The exploit code is unproven and unlikely to work.
+Remediation Level,RL,X,Not Defined: The remediation level is not defined.
+,,U,Unavailable: No remediation is available for the vulnerability.
+,,W,Workaround: A workaround is available for the vulnerability.
+,,T,Temporary Fix: A temporary fix is available for the vulnerability.
+,,O,Official Fix: An official fix is available for the vulnerability.
+Report Confidence,RC,X,Not Defined: The report confidence is not defined.
+,,C,Confirmed: The vulnerability has been confirmed by authoritative sources.
+,,R,Reasonable: The vulnerability is reasonably believed to exist.
+,,U,Unknown: The vulnerability is unknown or unconfirmed.
+Confidentiality Requirement,CR,X,Not Defined: The confidentiality requirement is not defined.
+,,H,High: High importance is placed on confidentiality.
+,,M,Medium: Medium importance is placed on confidentiality.
+,,L,Low: Low importance is placed on confidentiality.
+Integrity Requirement,IR,X,Not Defined: The integrity requirement is not defined.
+,,H,High: High importance is placed on integrity.
+,,M,Medium: Medium importance is placed on integrity.
+,,L,Low: Low importance is placed on integrity.
+Availability Requirement,AR,X,Not Defined: The availability requirement is not defined.
+,,H,High: High importance is placed on availability.
+,,M,Medium: Medium importance is placed on availability.
+,,L,Low: Low importance is placed on availability.
+Modified Attack Vector,MAV,N,Network: The vulnerability is exploitable remotely over the network.
+,,A,Adjacent Network: The vulnerability is exploitable only within the same local network segment.
+,,L,"Local: The vulnerability is exploitable locally (e.g., physical or local access required)."
+,,P,Physical: Physical access to the device is required to exploit the vulnerability.
+Modified Attack Complexity,MAC,L,Low: The vulnerability can be exploited without special conditions or circumstances.
+,,H,High: The vulnerability requires special conditions or circumstances to be exploited.
+Modified Privileges Required,MPR,N,None: No privileges are required to exploit the vulnerability.
+,,L,Low: Low-level privileges are required to exploit the vulnerability.
+,,H,"High: High-level (e.g., administrative) privileges are required to exploit the vulnerability."
+Modified User Interaction,MUI,N,None: No user interaction is required to exploit the vulnerability.
+,,R,Required: User interaction is required to exploit the vulnerability.
+Modified Scope,MS,U,Unchanged: The exploitation of the vulnerability does not affect resources beyond the vulnerable component.
+,,C,Changed: The exploitation of the vulnerability can affect resources beyond the vulnerable component.
+Modified Confidentiality Impact,MC,H,High: The vulnerability has a significant impact on confidentiality.
+,,L,Low: The vulnerability has a limited impact on confidentiality.
+,,N,None: The vulnerability has no impact on confidentiality.
+Modified Integrity Impact,MI,H,High: The vulnerability has a significant impact on integrity.
+,,L,Low: The vulnerability has a limited impact on integrity.
+,,N,None: The vulnerability has no impact on integrity.
+Modified Availability Impact,MA,H,High: The vulnerability has a significant impact on availability.
+,,L,Low: The vulnerability has a limited impact on availability.
+,,N,None: The vulnerability has no impact on availability.
